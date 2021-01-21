@@ -4,9 +4,8 @@
 <meta charset="utf-8"/>
 <title>Open Graphics Text format</title>
 <script src="//cdnjs.cloudflare.com/ajax/libs/phaser/3.51.0/phaser.min.js"></script>
+<script src="//raw.githubusercontent.com/gildas-lormeau/zip.js/master/dist/zip.min.js"></script>
 <script src="ogt.js"></script>
-<!--script src="canvas.js"></script-->
-
 <script>
 
 const scene_w = 320;
@@ -32,7 +31,7 @@ function preload ()
 
 function create ()
 {
-	openOGT("example.ogt", this);
+	openOGT("eri_btd.ogt", this);
 }
 
 function update ()

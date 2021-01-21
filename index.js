@@ -15,8 +15,8 @@ app.get('/canvas.js', (req, res) => {
   res.sendFile(__dirname+'/canvas.js');
 });
 
-app.get('/example.ogt', (req, res) => {
-  res.sendFile(__dirname+'/example.ogt');
+app.get('/eri_btd.ogt', (req, res) => {
+  res.sendFile(__dirname+'/eri_btd.ogt');
 });
 
 

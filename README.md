@@ -1,2 +1,3 @@
-# ogt
-Open Graphics Text format.
+# OGT: Open Graphics Text format
+
+

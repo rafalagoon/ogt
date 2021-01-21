@@ -1,4 +1,4 @@
-const grid_cell_size = 16;
+const grid_cell_size = 24;
 let x = grid_cell_size/2;
 let y = grid_cell_size/2;
 
